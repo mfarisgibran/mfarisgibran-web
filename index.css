@@ -1,8 +1,17 @@
+body {
+  margin: 0;
+}
 .navigation {
   padding: 30px;
   background-color: #a0734d;
   display: flex;
   justify-content: space-between;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navigation-menu a {
