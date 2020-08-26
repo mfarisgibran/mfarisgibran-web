@@ -16,11 +16,11 @@ Personal website of M Faris Gibran
   - Entrepreneur
   - Web Developer
 - Quote
-  - "We....."
+  - "We can't choose where we come from, but we can choose where we want to end up with our own efforts"
 - Picture
 - Learner
-  - Undergraduate....
+  - Undergraduate student majoring in Business Administration with specialization in Finance
 - Entrepeneur
-  - Managing ....
+  - Managing personal stock portfolio and doing dropshipping through my own website
 - Web Developer
-  - Currently...
+  - Currently a student at Azobu and aspiring to be freelance web developer
