@@ -17,3 +17,30 @@ body {
 .navigation-menu a {
   margin-left: 10px;
 }
+
+.intro {
+  display: flex;
+}
+
+.intro blockquote {
+  font-size: 50px;
+  padding: 50px;
+}
+
+.intro blockquote:before {
+  content: open-quote;
+}
+
+.intro blockquote:after {
+  content: close-quote;
+}
+
+.intro blockquote:before,
+.intro blockquote:after {
+  display: inline-block;
+  vertical-align: bottom;
+  color: rgb(66, 66, 65);
+  font-size: 100px;
+  position: relative;
+  line-height: 20px;
+}
