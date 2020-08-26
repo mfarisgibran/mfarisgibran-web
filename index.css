@@ -18,6 +18,13 @@ body {
   margin-left: 10px;
 }
 
+.search-bar {
+  margin-left: 10px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
 .intro {
   display: flex;
   width: 1000px;
