@@ -20,11 +20,15 @@ body {
 
 .intro {
   display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .intro blockquote {
   font-size: 50px;
-  padding: 50px;
+  margin: 0;
+  margin-right: 90px;
 }
 
 .intro blockquote:before {
@@ -43,4 +47,11 @@ body {
   font-size: 100px;
   position: relative;
   line-height: 20px;
+}
+
+.intro img {
+  width: 250px;
+  height: 100%;
+  border: 2px solid grey;
+  border-radius: 10px;
 }
