@@ -16,7 +16,7 @@ Personal website of M Faris Gibran
   - Entrepreneur
   - Web Developer
 - Quote
-  - "We can't choose where we come from, but we can choose where we want to end up with our own efforts"
+  - "We can't choose where we come from, but we can choose where we want to go with our own efforts"
 - Picture
 - Learner
   - Undergraduate student majoring in Business Administration with specialization in Finance
