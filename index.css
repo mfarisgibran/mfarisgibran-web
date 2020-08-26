@@ -87,3 +87,7 @@ body {
   width: 300px;
   text-align: center;
 }
+
+.card img {
+  height: 200px;
+}
