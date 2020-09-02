@@ -3,6 +3,12 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: #a0734d;
+}
+
 .navigation {
   padding: 30px;
   background-color: #a0734d;
@@ -12,7 +18,6 @@ body {
 
 .navigation a {
   color: #ffffff;
-  text-decoration: none;
 }
 
 .navigation-menu a {
@@ -111,7 +116,7 @@ body {
 }
 
 .intro-about .biography {
-  padding: 20px;
+  padding: 0 80px;
 }
 
 .intro-about .biography h1 {
@@ -119,7 +124,7 @@ body {
 }
 
 .intro-about .biography p {
-  width: 580px;
+  width: 100%;
   font-size: 24px;
   line-height: 36px;
 }
@@ -131,4 +136,9 @@ body {
 
 .intro-more .biography-more {
   width: 700px;
+}
+
+.intro-more .biography-more p {
+  font-size: 24px;
+  line-height: 36px;
 }
