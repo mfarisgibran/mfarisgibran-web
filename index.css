@@ -38,23 +38,30 @@ body {
   margin-right: 90px;
   font-family: serif;
 }
+.intro blockquote p {
+  margin-bottom: 10px;
+}
 
-.intro blockquote:before {
+.intro blockquote p:before {
   content: open-quote;
 }
 
-.intro blockquote:after {
+.intro blockquote p:after {
   content: close-quote;
 }
 
-.intro blockquote:before,
-.intro blockquote:after {
+.intro blockquote p:before,
+.intro blockquote p:after {
   display: inline-block;
   vertical-align: bottom;
   color: rgb(66, 66, 65);
   font-size: 100px;
   position: relative;
   line-height: 20px;
+}
+
+.intro blockquote footer {
+  font-size: 30px;
 }
 
 .intro img {
