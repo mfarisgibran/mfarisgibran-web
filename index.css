@@ -180,6 +180,12 @@ a {
   padding: 0 10px;
 }
 
+.contact-form input,
+.contact-form textarea {
+  border-radius: 5px;
+  border: solid 2px #473720;
+}
+
 .submit.button.primary {
   width: 100%;
   font-size: 24px;
