@@ -6,12 +6,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #a0734d;
+  color: #473720;
 }
 
 .navigation {
   padding: 30px;
-  background-color: #a0734d;
+  background-color: #473720;
   display: flex;
   justify-content: space-between;
 }
@@ -153,10 +153,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
 }
 
 .contact-form {
-  width: 100%;
+  width: 500px;
 }
 
 .contact-form .field {
@@ -172,4 +173,18 @@ a {
 
 .contact-form .field input {
   font-size: 24px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.submit.button.primary {
+  width: 100%;
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+}
+
+.primary {
+  background-color: #473720;
+  color: #ffffff;
 }
