@@ -8,8 +8,74 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="/index.css" />
   </head>
 
-  <body></body>
+  <body>
+    <nav class="navigation">
+      <div>
+        <a href="/">M Faris Gibran</a>
+      </div>
+      <div class="navigation-menu">
+        <a href="/about">About</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/blog">Blog</a>
+        <a href="/video">Video</a>
+        <a href="/contact">Contact</a>
+        <a href="/store">Store</a>
+        <input class="search-bar" type="text" placeholder="Search..." />
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <div>
+          <img src="/images/mailbox.jpg" alt="Mailbox" />
+        </div>
+
+        <div>
+          <header>
+            <h1>Contact Me</h1>
+          </header>
+        </div>
+
+        <div>
+          <form class="contact-form">
+            <div>
+              <label for="name">Name</label>
+              <input name="name" type="text" placeholder="Daniel Schwarz" />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input
+                name="email"
+                type="email"
+                placeholder="daniel.schwarz@mail.com"
+              />
+            </div>
+
+            <div>
+              <label for="phone">Phone</label>
+              <input name="phone" type="phone" placeholder="+1 234 567 890" />
+            </div>
+
+            <div>
+              <label for="subject">Subject</label>
+              <input name="subject" type="text" placeholder="Project Offer" />
+            </div>
+
+            <div>
+              <label for="message">Message</label>
+              <textarea name="message" rows="10"></textarea>
+            </div>
+
+            <div>
+              <input type="submit" value="Send Message" class="submit button" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
