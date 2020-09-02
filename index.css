@@ -1,6 +1,7 @@
+/* Global */
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .navigation {
   padding: 30px;
@@ -25,6 +26,7 @@ body {
   padding: 5px;
 }
 
+/* Home */
 .intro {
   display: flex;
   width: 1000px;
@@ -101,4 +103,32 @@ body {
 
 .card img {
   height: 200px;
+}
+
+/* About */
+.intro-about {
+  display: flex;
+}
+
+.intro-about .biography {
+  padding: 20px;
+}
+
+.intro-about .biography h1 {
+  font-size: 64px;
+}
+
+.intro-about .biography p {
+  width: 580px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.intro-more {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-more .biography-more {
+  width: 700px;
 }
