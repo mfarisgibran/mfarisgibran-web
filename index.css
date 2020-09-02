@@ -149,11 +149,14 @@ a {
 }
 
 .contact {
-  font-size: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
+}
+
+.contact header {
+  font-size: 64px;
 }
 
 .contact-form {
@@ -182,9 +185,15 @@ a {
   font-size: 24px;
   border: none;
   padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .primary {
   background-color: #473720;
   color: #ffffff;
+}
+
+.primary:hover {
+  background-color: #111111;
 }
