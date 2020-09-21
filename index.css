@@ -1,7 +1,7 @@
 /* Global */
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -135,9 +135,18 @@ a {
   font-size: 40px;
 }
 
-.cards {
-  display: flex;
-  justify-content: space-evenly;
+@media (min-width: 0px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .cards {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 .card {
