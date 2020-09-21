@@ -1,7 +1,7 @@
 /* Global */
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -35,6 +35,20 @@ a {
   color: #ffffff;
 }
 
+/* Mobile */
+@media (min-width: 0px) {
+  .navigation-menu {
+    display: none;
+  }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .navigation-menu {
+    display: flex;
+  }
+}
+
 .navigation-menu a {
   margin-left: 10px;
 }
@@ -47,11 +61,20 @@ a {
 }
 
 /* Home */
-.intro {
-  display: flex;
-  width: 1000px;
-  margin: 0 auto;
-  padding-top: 100px;
+@media (min-width: 0px) {
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
 }
 
 .intro blockquote {
@@ -60,6 +83,7 @@ a {
   margin-right: 90px;
   font-family: serif;
 }
+
 .intro blockquote p {
   margin-bottom: 10px;
 }
