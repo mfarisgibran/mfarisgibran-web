@@ -1,7 +1,7 @@
 /* Global */
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -244,8 +244,31 @@ a {
 }
 
 /* About */
-.intro-about {
-  display: flex;
+@media (min-width: 0px) {
+  .intro-about {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro-about {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 0px) {
+  .intro-about .photo img {
+    width: 320px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro-about .photo img {
+    width: 500px;
+    height: 800px;
+  }
 }
 
 .intro-about .biography {
