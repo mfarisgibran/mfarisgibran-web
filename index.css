@@ -1,7 +1,7 @@
 /* Global */
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -76,14 +76,24 @@ a {
     width: 1000px;
     margin: 0 auto;
     padding-top: 100px;
+    justify-content: space-between;
   }
 }
 
-.intro blockquote {
-  font-size: 42px;
-  margin: 0;
-  margin-right: 90px;
-  font-family: serif;
+@media (min-width: 0px) {
+  .intro blockquote {
+    font-size: 21px;
+    margin: 0;
+    font-family: serif;
+    padding: 10px;
+    max-width: 460px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro blockquote {
+    font-size: 42px;
+  }
 }
 
 .intro blockquote p {
@@ -98,18 +108,35 @@ a {
   content: close-quote;
 }
 
-.intro blockquote p:before,
-.intro blockquote p:after {
-  display: inline-block;
-  vertical-align: bottom;
-  color: rgb(66, 66, 65);
-  font-size: 100px;
-  position: relative;
-  line-height: 20px;
+@media (min-width: 0px) {
+  .intro blockquote p:before,
+  .intro blockquote p:after {
+    display: inline-block;
+    vertical-align: bottom;
+    color: rgb(66, 66, 65);
+    font-size: 50px;
+    position: relative;
+    line-height: 20px;
+  }
 }
 
-.intro blockquote footer {
-  font-size: 30px;
+@media (min-width: 1024px) {
+  .intro blockquote p:before,
+  .intro blockquote p:after {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 0px) {
+  .intro blockquote footer {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro blockquote footer {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 0px) {
@@ -139,14 +166,25 @@ a {
   justify-content: center;
 }
 
-.section-heading h1 {
-  font-size: 40px;
+@media (min-width: 0px) {
+  .section-heading h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-heading h1 {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 0px) {
   .cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -160,6 +198,8 @@ a {
 .card {
   width: 300px;
   text-align: center;
+  margin-bottom: 40px;
+  background: #eeeeee;
 }
 
 .card img {
