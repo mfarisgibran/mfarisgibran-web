@@ -1,7 +1,7 @@
 /* Global */
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -33,6 +33,20 @@ a {
 
 .navigation a {
   color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.button {
+  background-color: #473720;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 0 10px;
 }
 
 /* Mobile */
