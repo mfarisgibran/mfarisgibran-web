@@ -267,8 +267,8 @@ a {
 
 @media (min-width: 1024px) {
   .intro-about .photo img {
-    width: 500px;
-    height: 800px;
+    width: 400px;
+    height: 640px;
   }
 }
 
@@ -288,7 +288,6 @@ a {
   .intro-about .biography h1 {
     font-size: 30px;
     font-weight: 600;
-    margin: 20px 0;
   }
 }
 
