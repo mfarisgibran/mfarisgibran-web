@@ -260,7 +260,7 @@ a {
 @media (min-width: 0px) {
   .intro-about .photo img {
     width: 320px;
-    height: 428px;
+    height: 400px;
     object-fit: cover;
   }
 }
@@ -294,14 +294,15 @@ a {
 
 @media (min-width: 1024px) {
   .intro-about .biography h1 {
-    font-size: 64px;
+    font-size: 62px;
   }
 }
 
 @media (min-width: 0px) {
   .intro-about .biography p {
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
+    margin-top: 0px;
     margin-bottom: 20px;
   }
 }
@@ -319,13 +320,32 @@ a {
   justify-content: center;
 }
 
-.intro-more .biography-more {
-  width: 700px;
+@media (min-width: 0px) {
+  .intro-more .biography-more {
+    width: 100%;
+    padding: 0 10px;
+  }
 }
 
-.intro-more .biography-more p {
-  font-size: 24px;
-  line-height: 36px;
+@media (min-width: 1024px) {
+  .intro-more .biography-more {
+    width: 700px;
+  }
+}
+
+@media (min-width: 0px) {
+  .intro-more .biography-more p {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro-more .biography-more p {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 
 /* Contact */
