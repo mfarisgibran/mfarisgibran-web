@@ -1,10 +1,16 @@
-console.log("send message");
+const Airtable = require("airtable");
+
+Airtable.configure({
+  endpointUrl: "https://api.airtable.com",
+  apiKey: "keyVmZRFl4GrOMtGS",
+});
+
+const base = Airtable.base("appbqdLTu3TWgAupV");
 
 const contactFormElement = document.getElementById("contact-form");
 
 contactFormElement.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log("Message has been sent");
 
   const contactNameElement = document.getElementById("contact-name");
   const contactEmailElement = document.getElementById("contact-email");
@@ -12,9 +18,21 @@ contactFormElement.addEventListener("submit", (event) => {
   const contactSubjectElement = document.getElementById("contact-subject");
   const contactMessageElement = document.getElementById("contact-message");
 
-  console.log(contactNameElement.value);
-  console.log(contactEmailElement.value);
-  console.log(contactPhoneElement.value);
-  console.log(contactSubjectElement.value);
-  console.log(contactMessageElement.value);
+  const contactData = {
+    name: contactNameElement.value,
+    email: contactEmailElement.value,
+    phone: contactPhoneElement.value,
+    subject: contactSubjectElement.value,
+    message: contactMessageElement.value,
+  };
+
+  base("Contact").create([contactData], (err, records) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    records.forEach(function (record) {
+      console.log(record.getId());
+    });
+  });
 });
