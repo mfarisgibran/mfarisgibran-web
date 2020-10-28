@@ -1,11 +1,8 @@
 const Airtable = require("airtable");
 
-Airtable.configure({
-  endpointUrl: "https://api.airtable.com",
-  apiKey: "keyVmZRFl4GrOMtGS",
-});
-
-const base = Airtable.base("appbqdLTu3TWgAupV");
+const base = new Airtable({ apiKey: "keyVmZRFl4GrOMtGS" }).base(
+  "appbqdLTu3TWgAupV"
+);
 
 const contactFormElement = document.getElementById("contact-form");
 
