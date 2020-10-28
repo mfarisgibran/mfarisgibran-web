@@ -40,15 +40,21 @@
             <h1>Contact Me</h1>
           </header>
 
-          <form class="contact-form">
+          <form id="contact-form" class="contact-form">
             <div class="field">
               <label for="name">Name</label>
-              <input name="name" type="text" placeholder="Daniel Schwarz" />
+              <input
+                id="contact-name"
+                name="name"
+                type="text"
+                placeholder="Daniel Schwarz"
+              />
             </div>
 
             <div class="field">
               <label for="email">Email</label>
               <input
+                id="contact-email"
                 name="email"
                 type="email"
                 placeholder="daniel.schwarz@mail.com"
@@ -57,17 +63,31 @@
 
             <div class="field">
               <label for="phone">Phone</label>
-              <input name="phone" type="phone" placeholder="+1 234 567 890" />
+              <input
+                id="contact-phone"
+                name="phone"
+                type="phone"
+                placeholder="+1 234 567 890"
+              />
             </div>
 
             <div class="field">
               <label for="subject">Subject</label>
-              <input name="subject" type="text" placeholder="Project Offer" />
+              <input
+                id="contact-subject"
+                name="subject"
+                type="text"
+                placeholder="Project Offer"
+              />
             </div>
 
             <div class="field">
               <label for="message">Message</label>
-              <textarea name="message" rows="16"></textarea>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="16"
+              ></textarea>
             </div>
 
             <div class="control">
@@ -81,5 +101,6 @@
         </div>
       </section>
     </main>
+    <script src="contact.js"></script>
   </body>
 </html>
