@@ -1,4 +1,4 @@
-var Airtable = require('airtable')
+import Airtable from 'airtable'
 var base = new Airtable({ apiKey: 'keyVmZRFl4GrOMtGS' }).base(
   'appbqdLTu3TWgAupV'
 )
@@ -19,7 +19,7 @@ contactFormElement.addEventListener('submit', (event) => {
     email: contactEmailElement.value,
     phone: contactPhoneElement.value,
     subject: contactSubjectElement.value,
-    message: contactMessageElement.value
+    message: contactMessageElement.value,
   }
 
   base('Contact').create(contactData, (err, record) => {

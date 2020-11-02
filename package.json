@@ -1,0 +1,18 @@
+{
+  "name": "mfarisgibran-web",
+  "version": "1.0.0",
+  "description": "Personal Website of M Faris Gibran",
+  "main": "index.js",
+  "repository": "https://github.com/mfarisgibran/mfarisgibran-web.git",
+  "author": "M Faris Gibran <mfarisgibran@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "",
+    "dev": "",
+    "lint": "eslint '**/*.js'"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  }
+}
