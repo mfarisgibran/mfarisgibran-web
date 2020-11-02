@@ -8,11 +8,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "",
-    "dev": "",
+    "dev": "live-server",
     "lint": "eslint '**/*.js'"
   },
   "devDependencies": {
-    "eslint": "^7.12.1"
+    "eslint": "^7.12.1",
+    "live-server": "^1.2.1"
   }
 }
