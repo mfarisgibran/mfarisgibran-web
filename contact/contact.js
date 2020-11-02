@@ -1,4 +1,4 @@
-import Airtable from 'airtable'
+const Airtable = require('airtable')
 var base = new Airtable({ apiKey: 'keyVmZRFl4GrOMtGS' }).base(
   'appbqdLTu3TWgAupV'
 )
